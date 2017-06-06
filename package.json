@@ -1,0 +1,31 @@
+{
+  "name": "fractal-trees-ts",
+  "version": "0.0.1",
+  "description": "Fractal trees with fp-ts",
+  "scripts": {
+    "start": "webpack --watch --progress --config example/webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gcanti/fractal-trees-ts.git"
+  },
+  "author": "Giulio Canti <giulio.canti@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gcanti/fractal-trees-ts/issues"
+  },
+  "homepage": "https://github.com/gcanti/fractal-trees-ts",
+  "dependencies": {
+    "fp-ts": "^0.3.0",
+    "graphics-ts": "^0.1.1"
+  },
+  "devDependencies": {
+    "awesome-typescript-loader": "3.0.0-beta.17",
+    "tslint": "4.4.2",
+    "tslint-config-standard": "4.0.0",
+    "typescript": "^2.3.3",
+    "webpack": "1.14.0"
+  },
+  "tags": [],
+  "keywords": []
+}
