@@ -6,8 +6,7 @@ module.exports = {
     filename: './example/bundle.js'
   },
   resolve: {
-    extensions: ['', '.js', '.ts', '.tsx'],
-    root: [path.resolve(__dirname, 'src/app')]
+    extensions: ['.js', '.ts', '.tsx']
   },
   module: {
     loaders: [{ test: /\.tsx?$|\.jsx?$/, loader: 'awesome-typescript-loader', exclude: /node_modules/ }]
