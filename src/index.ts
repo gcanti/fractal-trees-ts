@@ -91,7 +91,9 @@ function drawTree(ctx: CanvasRenderingContext2D, tree: Tree<Line>): IO<CanvasRen
     case 'Leaf':
       return drawLine(ctx, tree.value)
     case 'Node':
-      return drawLine(ctx, tree.value).chain(() => drawTree(ctx, tree.left)).chain(() => drawTree(ctx, tree.right))
+      return drawLine(ctx, tree.value)
+        .chain(() => drawTree(ctx, tree.left))
+        .chain(() => drawTree(ctx, tree.right))
   }
 }
 

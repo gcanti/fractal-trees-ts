@@ -16,15 +16,15 @@
   },
   "homepage": "https://github.com/gcanti/fractal-trees-ts",
   "dependencies": {
-    "fp-ts": "^0.5.2",
-    "graphics-ts": "^0.3.0"
+    "fp-ts": "^1.0.1",
+    "graphics-ts": "^0.5.0"
   },
   "devDependencies": {
     "awesome-typescript-loader": "3.2.1",
-    "prettier": "1.5.3",
+    "prettier": "^1.8.2",
     "tslint": "4.4.2",
     "tslint-config-standard": "4.0.0",
-    "typescript": "^2.5.2",
+    "typescript": "^2.7.1",
     "webpack": "3.3.0"
   },
   "tags": [],
